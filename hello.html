@@ -1,1 +1,102 @@
 <h1>hello</h1>
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO53iYNTEI4oZxfZtl_-7FlBbgRahTbWlux0Pqkj02j2-TpNKb');
+      background-size:20%; 
+      
+      
+      color: blue;
+      font-family:"Arial Black"
+    }
+    a {
+      color: green;
+      font-size:25px
+    
+    }
+    h1 {
+      font-size: 80px;
+    }
+      
+    h2 {
+      font-size 20px;
+      font-family: Arial Black;
+      color: blue;
+    }
+      
+    article {
+      color: green;
+      font-size: 17px;
+      font-family: lucida console
+    }
+    
+    img {
+      margin: 50px 0px 10px 0px;
+      border: 15px solid white;
+      border-radius: 15px;
+    }
+    ul {
+      padding: 20px;
+      background: rgba(74,67,100,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 15px 0px 10px;
+    }
+    
+      body {
+        background:rgba(172,228,7, .49);
+        
+      }
+      
+    article {
+      max-width: 800px;
+      padding: 25px;
+      margin:10 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 40px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      } 
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZooe4p3klOJSlAvewgHGkG3Gm36toIeywYNdm8FqtiKJ_XF4y4g">
+    <h1>Dellian's Blog</h1>
+    <ul>
+      <li><a href="https://travel.state.gov/content/travel/en/international-travel.html" target="_blank">Travel Info</a></li>
+      <li><a href="https://travel.usnews.com/gallery/the-worlds-30-best-places-to-visit-in-2017-18"target="_black">Best Places Visited</a></li>
+      <li><a href="www.viraltravel.com/the-12-absolute-worst-travel-destinations-in-the-world/"target="_black">Worst Place Visited</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Niagara Falls</h2>
+    <p>With awe-inspiring scenery year-round, thrilling attractions, interactive exhibits, miles of hiking trails, and delectable dining options in a family-friendly environment, Niagara Falls State Park is an adventure-packed experience! No passport is needed to experience an unforgettable and breathtaking Niagara Falls vacation.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Grand Canyon</h2>
+    <p>A much smaller number of people (10%) see the canyon from the North Rim of the park, which lies just 10 miles (16 km) across the canyon from the South Rim, (as the California condor flies) but is a 220 mile/ 354 km drive by car. The North Rim has a short season. Lodging and food services are open between May 15th and October 15th of each year.</P>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Yellowstone National Park</h2>
+    <p>Old Faithful Area: The Lone Star Geyser Trail is a favorite choice for an easy, groomed trail. The trail is flat most of the way and follows the Firehole River for 2.5 miles to Lone Star Geyser. Be sure to check at the visitor center for estimated eruption times. Or hop on the Upper Geyser Basin Trail right at lone-star-skithe Old Faithful Inn to see several geysers and hot springs on your way to Biscuit Basin (2.5 miles one-way).</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Thank you!");
+    });
+  </script>
+</body>
